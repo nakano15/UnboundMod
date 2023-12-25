@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/input/0",
+		"value" : { "item" : "violiumore", "count" : 5 }
+	},
+	{
+		"op" : "add",
+		"path" : "/input/-",
+		"value" : { "item" : "corefragmentore", "count" : 1 }
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/offeredQuests/-",
+		"value" : "outposthelpquest1"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/turnInQuests/-",
+		"value" : "outposthelpquest1"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/offeredQuests/-",
+		"value" : "outposthelpquest2"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/turnInQuests/-",
+		"value" : "outposthelpquest2"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/offeredQuests/-",
+		"value" : "outposthelpquest3"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/offeredQuests/-",
+		"value" : "outpostcoalquest1"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/turnInQuests/-",
+		"value" : "outpostcoalquest1"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/offeredQuests/-",
+		"value" : "outpostcoalquest2"
+	}
+]

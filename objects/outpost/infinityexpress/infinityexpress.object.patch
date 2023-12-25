@@ -1,0 +1,39 @@
+[
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/12"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/11"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/10"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/9"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/8"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/7"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/2"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/1"
+	},
+	{
+		"op" : "add",
+		"path" : "/interactData/items/3",
+		"value" : { "item" : "capturepod" }
+	}
+]

@@ -1,0 +1,31 @@
+{
+  "id" : "inventorstablequest",
+  "prerequisites" : ["outposthelpquest2"],
+  "title" : "^orange;You need some Autosufficience.",
+  "text" : "You must be the one who had a experience with tentacled creatures, right?\nI wont ask you for details. I'm not into invading others... things...\nYou need some help? Hm, I might have something that will be handy for you...",
+  "completionText" : "There. You can now learn how to craft a ^green;Inventors Table^reset;.\nYou will need to learn what you can make with it, but for now, that's handy.\nDON'T LOSE IT!",
+  "mainQuest" : true,
+  "moneyRange" : [120, 120],
+  "rewards" : [
+    [ [ "inventorstable-recipe", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak again.",
+    "_conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "coalore",
+        "count" : 20,
+        "consume" : true
+      }
+    ]
+  }
+}

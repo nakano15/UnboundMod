@@ -1,0 +1,112 @@
+[
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/190",
+		"_info" : [ "Ore Detector", "oredetector" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/189",
+		"_info" : [ "Cave Detector", "cavedetector" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/187",
+		"_info" : [ "Halogen Pack", "halogenpack" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/185",
+		"_info" : [ "Capture Station, again.", "capturestation" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/183",
+		"_info" : [ "Heat Protection Backpack", "heatprotectionback" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/182",
+		"_info" : [ "Cold Protection Backpack", "coldprotectionback" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/181",
+		"_info" : [ "Rail Crafting Bench", "railcraftingtable" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/180",
+		"_info" : [ "Wiring Station", "wiringstation" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/179",
+		"_info" : [ "Pixel Compressor", "pixelcompressor" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/178",
+		"_info" : [ "Capture Station", "capturestation" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/177",
+		"_info" : [ "3D Printer", "3dprinter" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/121",
+		"_info" : [ "Radiation Protection Backpack", "radiationprotectionback" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/120",
+		"_info" : [ "Refinery", "refinery" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/118",
+		"_info" : [ "Cooking Table", "woodencookingtable" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/117",
+		"_info" : [ "Medical Station", "craftingmedical" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/11",
+		"_info" : [ "Breath protection backpack", "breathprotectionback" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/10",
+		"_info" : [ "Crafting Wheel", "craftingwheel" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/8",
+		"_info" : [ "Furnace", "craftingfurnace" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/7",
+		"_info" : [ "Farming Station", "craftingfarm" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/6",
+		"_info" : [ "Anvil", "craftinganvil" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/4", 
+		"_info" : [ "Climbing Rope", "climbingrope" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/2",
+		"_info" : [ "Inventor's Table", "inventorstable" ]
+	}
+]

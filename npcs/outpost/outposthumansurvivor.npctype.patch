@@ -1,0 +1,22 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/turnInQuests/-",
+		"value" : "furnacequest1"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/offeredQuests/-",
+		"value" : "furnacequest2"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/turnInQuests/-",
+		"value" : "furnacequest2"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/offeredQuests/-",
+		"value" : "anvilquest1"
+	}
+]

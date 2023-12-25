@@ -1,0 +1,11 @@
+{
+  "name" : "unboundmod",
+  "friendlyName" : "Starbound Unbound Mod",
+  "description" : "This a cool mod!",
+  "author" : "Nakano15",
+  "version" : "0.1",
+  "link" : "",
+  "steamContentId" : "000000001",
+  "tags" : "",
+  "priority" : -5000
+}

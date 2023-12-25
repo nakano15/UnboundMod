@@ -1,0 +1,29 @@
+{
+  "id" : "outpostcoalquest2",
+  "prerequisites" : ["outpostcoalquest1"],
+  "title" : "^orange;Ship fix for Coal Price: Part 2",
+  "text" : "Here it is. I think it might be a good time for him to repay me. And in consequence, you help me with a few things. Okay?",
+  "completionText" : "Ready to pay for the fix? What is this? You have a note for me? Let me see...\n\n... I'll begin fixing your ship right now...\nBut I'll only leave it on a flying state. You hear me?",
+  "mainQuest" : true,
+  "_completionCinema" : "/cinematics/repair/repair.cinematic",
+  "moneyRange" : [100, 100],
+  "_rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/story/modded/outpostcoalquestscript2.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver",
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/shipyardcaptain/shipyardcaptainportrait.png"} ],
+        "title" : "Penguin Pete"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Deliver ^orange;Note^reset; to the ^orange;Shipyard Master^reset; at the ^orange;Outpost^reset;.",
+    "shipUpgrade" : { "shipLevel" : 2 }
+  }
+}

@@ -1,0 +1,27 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/lunarbase/threatLevel",
+		"value" : 3.5
+	},
+	{
+		"op" : "replace",
+		"path" : "/floranmission1/threatLevel",
+		"value" : 4.5
+	},
+	{
+		"op" : "replace",
+		"path" : "/hylotlmission1/threatLevel",
+		"value" : 5.5
+	},
+	{
+		"op" : "replace",
+		"path" : "/apexmission1/threatLevel",
+		"value" : 6.5
+	},
+	{
+		"op" : "replace",
+		"path" : "/glitchmission1/threatLevel",
+		"value" : 7.5
+	}
+]

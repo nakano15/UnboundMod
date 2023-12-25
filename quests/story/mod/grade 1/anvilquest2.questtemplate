@@ -1,0 +1,31 @@
+{
+  "id" : "anvilquest2",
+  "prerequisites" : ["anvilquest1"],
+  "title" : "^orange;Hammer and Anvil: Part 2.",
+  "text" : "Before I can give you the Anvil recipe, I will need your help with a little thing, of course.\nSince you know how to make a ^orange;Furnace^reset;, I will need you to make me ^orange;15 Glass^reset;.\nOf course, you'll need to find ^orange;Sand^reset; to make such a thing. Maybe in the underground of a world you can find that.",
+  "completionText" : "That was exactly what I needed. Here's your well earned Anvil Recipe.\nI think that by now you have the basics to make things for your survival.",
+  "mainQuest" : true,
+  "moneyRange" : [120, 120],
+  "rewards" : [
+    [ [ "craftinganvil-recipe", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Deliver the ^orange;15 Glasses^reset; to the ^orange;Avian Explorer^reset;.",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "glass",
+        "count" : 15,
+        "consume" : true
+      }
+    ]
+  }
+}

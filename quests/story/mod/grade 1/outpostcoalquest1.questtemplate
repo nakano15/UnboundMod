@@ -1,0 +1,31 @@
+{
+  "id" : "outpostcoalquest1",
+  "prerequisites" : ["outposthelpquest3"],
+  "title" : "^orange;Ship fix for Coal Price.",
+  "text" : "Huh. ^orange;Pete^reset; is at it again? Well, I can try to convince him to fix your ship, or at least make it be able to fly through planets... If you bring me ^orange;20 Coal Ores^reset;. What do you say?",
+  "completionText" : "Great. I'll prepare the papers you should give him, and it will get your ship fixed at once.",
+  "mainQuest" : true,
+  "moneyRange" : [100, 100],
+  "_rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Bring ^orange;20 Coal Ores^reset; to the ^orange;Scientist^reset; at the ^orange;Outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "coalore",
+        "count" : 20,
+        "consume" : true
+      }
+    ]
+  }
+}

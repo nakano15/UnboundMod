@@ -1,0 +1,31 @@
+{
+  "id" : "foragingtablequest",
+  "prerequisites" : ["outposthelpquest2"],
+  "title" : "^orange;Farmer's Best Friend.",
+  "text" : "Hey there, Star Traveller. Ever thought about growing your own crops?\nLets make a deal: If you bring me 5 Wheats, I'll teach you how to make a ^green;Foraging Table^reset;, what do you think?",
+  "completionText" : "That's sweet of you for doing that. Here's the recipe for the ^green;Foraging Table^reset;, and also ^green;5 Fried Pastry^reset;.\nI hope you like then.",
+  "mainQuest" : true,
+  "moneyRange" : [120, 120],
+  "rewards" : [
+    [ [ "craftingfarm-recipe", 1 ], [ "pasty", 5 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Deliver the ^orange;Wheat^reset; to the ^orange;Apex refugee^reset;.",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "wheat",
+        "count" : 5,
+        "consume" : true
+      }
+    ]
+  }
+}

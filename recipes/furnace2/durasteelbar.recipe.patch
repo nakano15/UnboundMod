@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/input/0",
+		"value" : { "item" : "durasteelore", "count" : 4 }
+	},
+	{
+		"op" : "add",
+		"path" : "/input/-",
+		"value" : { "item" : "solidfuel", "count" : 1 }
+	}
+]

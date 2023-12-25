@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/script",
+		"value" : "/quests/scripts/story/gaterepairmodded.lua"
+	},
+	{
+		"op" : "replace",
+		"path" : "/scriptConfig/gateRepairCount",
+		"value" : 0
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/offeredQuests/-",
+		"value" : "anvilquest2"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/turnInQuests/-",
+		"value" : "anvilquest1"
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/turnInQuests/-",
+		"value" : "anvilquest2"
+	}
+]

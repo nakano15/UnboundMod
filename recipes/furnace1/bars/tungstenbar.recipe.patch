@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/input/0",
+		"value" : { "item" : "tungstenore", "count" : 3 }
+	},
+	{
+		"op" : "add",
+		"path" : "/input/-",
+		"value" : { "item" : "solidfuel", "count" : 1 }
+	}
+]

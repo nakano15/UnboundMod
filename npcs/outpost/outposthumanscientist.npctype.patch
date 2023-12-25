@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/offeredQuests",
+		"value" : [ "inventorstablequest", "furnacequest1" ]
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/turnInQuests",
+		"value" : [ "inventorstablequest" ]
+	}
+]

@@ -1,0 +1,23 @@
+{
+  "id" : "neverstarting",
+  "prerequisites" : [],
+  "title" : "^orange;Neverstarting.",
+  "text" : "This quest exists to block certain quests from being acquired.",
+  "completionText" : "",
+  "mainQuest" : true,
+  "moneyRange" : [100, 100],
+  "_rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Good luck."
+  }
+}

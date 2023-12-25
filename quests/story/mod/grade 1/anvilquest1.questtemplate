@@ -1,0 +1,32 @@
+{
+  "id" : "anvilquest1",
+  "prerequisites" : ["furnacequest2"],
+  "title" : "^orange;Hammer and Anvil: Part 1.",
+  "text" : "You need to learn how to make a anvil? Sorry, I don't know how to, but I heard there's a mechanic here in the outpost. Look for them.",
+  "completionText" : "Hello. You say you're looking for a mechanic? I don't know of any but maybe I can be of help.\nYou need to learn how to create a anvil? I can help with that.",
+  "mainQuest" : true,
+  "_moneyRange" : [120, 120],
+  "_rewards" : [
+    [ [ "craftingfarm-recipe", 1 ], [ "pasty", 5 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Find the ^orange;Mechanic^reset; in the ^orange;Outpost^reset;.",
+    "_conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "wheat",
+        "count" : 5,
+        "consume" : true
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/apexfacilitychesttreasure",
+		"value" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.70, "pool" : "money"},
+			{"weight" : 0.10, "pool" : "stim"},
+			{"weight" : 0.02, "item" : [ "scientistchest", 1]},
+			{"weight" : 0.02, "item" : [ "scientistlegs", 1]},
+			{"weight" : 0.02, "item" : [ "scientisthead", 1]},
+			{"weight" : 0.14, "item" : [ "banana", 2]},
+			{"weight" : 0.10, "item" : "techcard"}
+		  ],
+		  "poolRounds" : [
+			[0.50, 1],
+			[0.50, 2]
+		  ],
+		  "allowDuplication" : false
+		}]
+	  ]
+	},
+	{
+		"op" : "replace",
+		"path" : "/apexbasechesttreasure",
+		"value" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.30, "pool" : "money"},
+			{"weight" : 0.70, "pool" : "basicTreasure"},
+			{"weight" : 0.10, "item" : "techcard"}
+		  ],
+		  "poolRounds" : [
+			[0.25, 3],
+			[0.50, 4],
+			[0.25, 5]
+		  ],
+		  "allowDuplication" : false
+		}]
+	  ]
+	},
+	{
+		"op" : "replace",
+		"path" : "/evilfortresschesttreasure",
+		"value" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.30, "pool" : "money"},
+			{"weight" : 0.70, "pool" : "basicTreasure"},
+			{"weight" : 0.10, "item" : "techcard"}
+		  ],
+		  "poolRounds" : [
+			[0.25, 3],
+			[0.50, 4],
+			[0.25, 5]
+		  ],
+		  "allowDuplication" : false
+		}]
+	  ]
+	},
+	{
+		"op" : "replace",
+		"path" : "/florancanyonchesttreasure",
+		"value" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.30, "pool" : "money"},
+			{"weight" : 0.70, "pool" : "basicTreasure"},
+			{"weight" : 0.10, "item" : "techcard"}
+		  ],
+		  "poolRounds" : [
+			[0.25, 4],
+			[0.50, 5],
+			[0.25, 6]
+		  ],
+		  "allowDuplication" : false
+		}]
+	  ]
+	}
+]

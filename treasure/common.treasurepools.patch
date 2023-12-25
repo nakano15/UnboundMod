@@ -1,0 +1,96 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/basicTreasure",
+		"value" : [
+		[0, {
+		  "pool" : [
+			{"weight" : 0.32, "pool" : "chestMoney"},
+			{"weight" : 0.16, "pool" : "healingItem"},
+			{"weight" : 0.16, "pool" : "ore"},
+			{"weight" : 0.12, "pool" : "thrownWeapon"},
+			{"weight" : 0.05, "pool" : "weapon"},
+			{"weight" : 0.05, "pool" : "tool"},
+			{"weight" : 0.01, "pool" : "instrument"},
+			{"weight" : 0.01, "pool" : "costume"}
+		  ]
+		}]
+	  ]
+	},
+	{
+		"op" : "replace",
+		"path" : "/valuableTreasure",
+		"value" : [
+			[0, {
+			  "pool" : [
+				{"weight" : 0.45, "item" : "manipulatormodule"},
+				{"weight" : 0.04, "item" : "teleportercore"},
+				{"weight" : 0.15, "pool" : "goodWeapon"},
+				{"weight" : 0.03, "pool" : "uniqueWeapon"}
+			  ]
+			}],
+			[1.9, {
+			  "pool" : [
+				{"weight" : 0.35, "item" : "manipulatormodule"},
+				{"weight" : 0.05, "item" : "teleportercore"},
+				{"weight" : 0.05, "pool" : "augments"},
+				{"weight" : 0.12, "pool" : "goodWeapon"},
+				{"weight" : 0.02, "pool" : "uniqueWeapon"}
+			  ]
+			}],
+			[2.9, {
+			  "pool" : [
+				{"weight" : 0.33, "item" : "manipulatormodule"},
+				{"weight" : 0.05, "item" : "teleportercore"},
+				{"weight" : 0.05, "pool" : "augments"},
+				{"weight" : 0.03, "pool" : "petcollars"},
+				{"weight" : 0.05, "pool" : "goodWeapon"},
+				{"weight" : 0.03, "pool" : "uniqueWeapon"},
+				{"weight" : 0.02, "pool" : "uniqueWeaponRecipe"}
+			  ]
+			}],
+			[3.9, {
+			  "pool" : [
+				{"weight" : 0.30, "item" : "manipulatormodule"},
+				{"weight" : 0.05, "item" : "teleportercore"},
+				{"weight" : 0.06, "pool" : "augments"},
+				{"weight" : 0.06, "pool" : "petcollars"},
+				{"weight" : 0.03, "pool" : "uniqueWeapon"},
+				{"weight" : 0.02, "pool" : "uniqueWeaponRecipe"}
+			  ]
+			}]
+		  ]
+	},
+	{
+		"op" : "replace",
+		"path" : "/valuableTechTreasure",
+		"value" : [
+		[0, {
+		  "pool" : [
+			{"weight" : 0.3, "item" : "techcard"},
+			{"weight" : 0.4, "item" : "teleportercore"}
+		  ]
+		}]
+	  ]
+	},
+	{
+		"op" : "replace",
+		"path" : "/challengeSmallChestTreasure",
+		"value" :[
+		[0, {
+		  "poolRounds" : [
+			[0.45, 2],
+			[0.45, 3],
+			[0.1, 4]
+		  ],
+		  "pool" : [
+			{"weight" : 0.5, "pool" : "chestMoney"},
+			{"weight" : 0.3, "pool" : "valuableTreasure"},
+			{"weight" : 0.2, "pool" : "goodWeapon"},
+			{"weight" : 0.5, "pool" : "techcard"},
+			{"weight" : 0.4, "pool" : "upgrademodule"}
+		  ]
+		}]
+	  ]	
+	}
+]

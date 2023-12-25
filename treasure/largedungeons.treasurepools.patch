@@ -1,0 +1,21 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/LargeDungeonReward",
+		"value" :[
+		[1, {
+		  "fill" : [
+			{"pool" : "basicTreasure"},
+			{"pool" : "basicTreasure"}
+		  ],
+		  "pool" : [
+			{"weight" : 0.5, "pool" : "uniqueWeapon"},
+			{"weight" : 0.5, "pool" : "goodWeapon"},
+			{"weight" : 0.1, "item" : "upgrademodule"}
+		  ],
+		  "poolRounds" : 1,
+		  "allowDuplication" : false
+		}]
+	  ]
+	}
+]

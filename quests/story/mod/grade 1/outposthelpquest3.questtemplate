@@ -1,0 +1,35 @@
+{
+  "id" : "outposthelpquest3",
+  "prerequisites" : ["outposthelpquest2"],
+  "title" : "^orange;First, we need a flying spaceship.",
+  "text" : "To fix the ^orange;spaceship^reset;, there is only one person in the outpost who can help with that, and that's the ^orange;Shipyard Captain^reset;.\nGo talk to him and see if he can help fixing your ship.",
+  "completionText" : "What do you want? Ah, you need a spaceship to fix? Well... I hope you can pay for the services? Oh, you can't? Then return to me once you can pay me.",
+  "mainQuest" : true,
+  "moneyRange" : [100, 100],
+  "_rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver",
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/shipyardcaptain/shipyardcaptainportrait.png"} ],
+        "title" : "Penguin Pete"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak with ^orange;Shipyard Captain^reset; at the ^orange;Outpost^reset;",
+    "_conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "chocolate",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

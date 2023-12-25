@@ -1,0 +1,31 @@
+{
+  "id" : "outposthelpquest2",
+  "prerequisites" : ["outposthelpquest1"],
+  "title" : "^orange;Telling what happened.",
+  "text" : "So... You say that you were graduating into being a ^green;Protectorate^reset;, until tentacles showed up?\nThat's the most weird graduation celebration I've ever heard.\n\nWait, you mean those tentacles grabbed everyone away and you barelly managed to escape?",
+  "completionText" : "Well, there's not much you can do right now about that, but at least you've got a ^green;spaceship^reset;. What is its condition? ^red;It can't fly to other planets?^reset; Well... You'll have to fix that. A spaceship unable to fly is about useless.",
+  "mainQuest" : true,
+  "_moneyRange" : [100, 100],
+  "_rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak again with the ^orange;Bounty Hunter^reset; at the ^orange;Outpost^reset;.",
+    "_conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "chocolate",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}
