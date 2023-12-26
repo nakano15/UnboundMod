@@ -11,7 +11,11 @@
 		  "pool" : [
 			{"weight" : 0.5, "pool" : "uniqueWeapon"},
 			{"weight" : 0.5, "pool" : "goodWeapon"},
-			{"weight" : 0.1, "item" : "upgrademodule"}
+			{"weight" : 0.1, "item" : "upgrademodule"},
+			{"weight" : 0.01, "item" : "3dprinter-recipe"},
+			{"weight" : 0.01, "item" : "pixelcompressor-recipe"},
+			{"weight" : 0.01, "item" : "cavedetector-recipe"},
+			{"weight" : 0.01, "item" : "oredetector-recipe"}
 		  ],
 		  "poolRounds" : 1,
 		  "allowDuplication" : false

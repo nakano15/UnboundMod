@@ -1,0 +1,31 @@
+{
+  "id" : "spinningwheelquest",
+  "prerequisites" : ["outposthelpquest2"],
+  "title" : "^orange;.",
+  "text" : "What do you want? Don't you see that I'm pretty busy? You need some crafting table? Then lets make a deal: \nPay me some fuel for my ship, and I'll teach you how to make a Spinning Wheel. Got it?",
+  "completionText" : "There you go. Now don't you dare to lose it.",
+  "mainQuest" : true,
+  "moneyRange" : [120, 120],
+  "rewards" : [
+    [ [ "craftingwheel-recipe", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Deliver the ^orange;Liquid Erchius Fuel^reset; to the ^orange;Apex refugee^reset;.",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "liquidfuel",
+        "count" : 100,
+        "consume" : true
+      }
+    ]
+  }
+}

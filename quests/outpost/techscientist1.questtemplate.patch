@@ -1,0 +1,7 @@
+[
+	{
+		"op" : "add",
+		"path" : "/prerequisites/-",
+		"value" : "human_mission1"
+	}
+]
