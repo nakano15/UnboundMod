@@ -1,0 +1,32 @@
+{
+  "id" : "breathingeppquest",
+  "prerequisites" : ["human_mission1"],
+  "title" : "^orange;How to make a Breathing EPP.",
+  "text" : "Do you plan on exploring some Moons? Well, I can teach you how to make a Breathing EPP, but there is a catch: You'll need to gather ^orange;20 Crystal Erchius Fuel^reset; from a ^orange;moon^reset;. I hope you can hold your breath for long. Why do I feel like I forgot something..?",
+  "completionText" : "Oh yeah, you're back with the fuel? Ah, there was a ghost chasing you there? That must be what I forgot. Anyways, here's the EPP recipe.",
+  "mainQuest" : true,
+  "moneyRange" : [120, 120],
+  "rewards" : [
+    [ [ "breathprotectionback-recipe", 1 ], [ "pasty", 5 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Deliver the ^orange;Crystal Erchius Fuel^reset; to the ^orange;Human Scientist^reset;.",
+    "_conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "solidfuel",
+        "count" : 20,
+        "consume" : true
+      }
+    ]
+  }
+}

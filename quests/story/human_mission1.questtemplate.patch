@@ -3,5 +3,9 @@
 		"op" : "add",
 		"path" : "/prerequisites/-",
 		"value" : "outpostcoalquest2"
+	},
+	{
+		"op" : "remove",
+		"path" : "/scriptConfig/shipUpgrade"
 	}
 ]

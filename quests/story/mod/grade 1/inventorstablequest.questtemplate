@@ -3,10 +3,10 @@
   "prerequisites" : ["outposthelpquest2"],
   "title" : "^orange;You need some Autosufficience.",
   "text" : "You must be the one who had a experience with tentacled creatures, right?\nI wont ask you for details. I'm not into invading others... things...\nYou need some help? Hm, I might have something that will be handy for you...",
-  "completionText" : "There. You can now learn how to craft a ^green;Inventors Table^reset;.\nYou will need to learn what you can make with it, but for now, that's handy.\nDON'T LOSE IT!",
+  "completionText" : "You know how to make a ^green;Inventors Table^reset;, right?\nYou will need to learn what you can make with it, but for now, that's handy for you to know.",
   "mainQuest" : true,
   "moneyRange" : [120, 120],
-  "rewards" : [
+  "_rewards" : [
     [ [ "inventorstable-recipe", 1 ] ]
   ],
 

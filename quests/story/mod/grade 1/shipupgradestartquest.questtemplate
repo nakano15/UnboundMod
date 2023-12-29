@@ -1,0 +1,40 @@
+{
+  "id" : "shipupgradestartquest",
+  "prerequisites" : ["outpostcoalquest2"],
+  "title" : "^orange;Begin Ship Upgrade.",
+  "text" : "Ah, so you're ready to begin ship upgrade. Lets do this.",
+  "completionText" : "There you go. Next time you need ship upgrades, lets see if we can get into a good deal.",
+  "mainQuest" : true,
+  "moneyRange" : [120, 120],
+  "_rewards" : [
+    [ [ "craftingwheel-recipe", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/story/modded/shipupgradestartquest.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/shipyardcaptain/shipyardcaptainportrait.png"} ],
+        "title" : "Penguin Pete"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/shipyardcaptain/shipyardcaptainportrait.png"} ],
+        "title" : "Penguin Pete"
+      }
+    },
+    "requireTurnIn" : false,
+
+    "turnInDescription" : "Deliver the ^orange;Plant Fibers^reset; to the ^orange;Apex refugee^reset;.",
+    "_conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "plantfibre",
+        "count" : 30,
+        "consume" : true
+      }
+    ],
+
+    "shipUpgrade" : { "shipLevel" : 3 }
+  }
+}

@@ -103,10 +103,5 @@
 		"op" : "remove",
 		"path" : "/defaultBlueprints/tier1/4", 
 		"_info" : [ "Climbing Rope", "climbingrope" ]
-	},
-	{
-		"op" : "remove",
-		"path" : "/defaultBlueprints/tier1/2",
-		"_info" : [ "Inventor's Table", "inventorstable" ]
 	}
 ]

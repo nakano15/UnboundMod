@@ -8,5 +8,15 @@
 		"op" : "add",
 		"path" : "/turnInQuests/-",
 		"value" : "outpostcoalquest2"
+	},
+	{
+		"op" : "add",
+		"path" : "/turnInQuests/-",
+		"value" : "shipupgradestartquest"
+	},
+	{
+		"op" : "add",
+		"path" : "/offeredQuests",
+		"value" : [ "shipupgradestartquest" ]
 	}
 ]
