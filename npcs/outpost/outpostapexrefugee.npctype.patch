@@ -2,11 +2,11 @@
 	{
 		"op" : "add",
 		"path" : "/scriptConfig/offeredQuests/-",
-		"value" : "foragingtablequest"
+		"value" : "spinningwheelquest"
 	},
 	{
 		"op" : "add",
 		"path" : "/scriptConfig/turnInQuests/-",
-		"value" : "foragingtablequest"
+		"value" : "spinningwheelquest"
 	}
 ]

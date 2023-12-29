@@ -2,23 +2,30 @@
   "id" : "foragingtablequest",
   "prerequisites" : ["outposthelpquest2"],
   "title" : "^orange;Farmer's Best Friend.",
-  "text" : "Hey there, Star Traveller. Ever thought about growing your own crops?\nLets make a deal: If you bring me 5 Wheats, I'll teach you how to make a ^green;Foraging Table^reset;, what do you think?",
-  "completionText" : "That's sweet of you for doing that. Here's the recipe for the ^green;Foraging Table^reset;, and also ^green;5 Fried Pastry^reset;.\nI hope you like then.",
+  "text" : "Floran welcomes you to the ^orange;Terramart^reset;. Ever thought about growing your own crops?\nLets make a deal: If you bring me 5 Wheats, I'll teach you how to make a ^green;Foraging Table^reset;, what do you think?",
+  "completionText" : "Floran is pleased. Floran gives you the recipe for the ^green;Foraging Table^reset;, and also ^green;5 Fried Pastry^reset;.\nFloran hope you like then.",
   "mainQuest" : true,
   "moneyRange" : [120, 120],
   "rewards" : [
-    [ [ "craftingfarm-recipe", 1 ], [ "pasty", 5 ] ]
+    [ [ "craftingfarm-recipe", 1 ], [ "pasty", 5] ]
   ],
 
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
     "portraits" : {
-      "default" : "questGiver"
+      "default" : {
+        "portrait" : [ {"image" : "/objects/outpost/terramart/terramartprofile.png"} ],
+        "title" : "Terramart Clerk"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/terramart/terramartprofile.png"} ],
+        "title" : "Terramart Clerk"
+      }
     },
     "requireTurnIn" : true,
 
-    "turnInDescription" : "Deliver the ^orange;Wheat^reset; to the ^orange;Apex refugee^reset;.",
+    "turnInDescription" : "Deliver the ^orange;Wheat^reset; to the ^orange;Terramart^reset;.",
     "conditions" : [
       {
         "type" : "gatherItem",

@@ -2,8 +2,8 @@
   "id" : "spinningwheelquest",
   "prerequisites" : ["outposthelpquest2"],
   "title" : "^orange;.",
-  "text" : "What do you want? Don't you see that I'm pretty busy? You need some crafting table? Then lets make a deal: \nPay me some fuel for my ship, and I'll teach you how to make a Spinning Wheel. Got it?",
-  "completionText" : "There you go. Now don't you dare to lose it.",
+  "text" : "Hey Star-Traveller.\nYou're the one who escaped from the ^red;disasterous Protectorate Graduation^reset;, right?\nWhat could I help you with? Well, I could teach you how to make a ^green;Spinning Wheel^orange;, if you bring me ^orange;30 Plant Fibers^reset;.\nWhat about this?",
+  "completionText" : "Yes, you've brought the ^orange;Plant Fibers^reset; I asked for, nice. Here you go. Don't lose that recipe.",
   "mainQuest" : true,
   "moneyRange" : [120, 120],
   "rewards" : [
@@ -18,12 +18,12 @@
     },
     "requireTurnIn" : true,
 
-    "turnInDescription" : "Deliver the ^orange;Liquid Erchius Fuel^reset; to the ^orange;Apex refugee^reset;.",
+    "turnInDescription" : "Deliver the ^orange;Plant Fibers^reset; to the ^orange;Apex refugee^reset;.",
     "conditions" : [
       {
         "type" : "gatherItem",
-        "itemName" : "liquidfuel",
-        "count" : 100,
+        "itemName" : "plantfibre",
+        "count" : 30,
         "consume" : true
       }
     ]
