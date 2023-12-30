@@ -1,6 +1,6 @@
 {
   "id" : "shipupgradestartquest",
-  "prerequisites" : ["outpostcoalquest2"],
+  "prerequisites" : ["human_mission1"],
   "title" : "^orange;Begin Ship Upgrade.",
   "text" : "Ah, so you're ready to begin ship upgrade. Lets do this.",
   "completionText" : "There you go. Next time you need ship upgrades, lets see if we can get into a good deal.",

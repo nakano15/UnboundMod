@@ -2,8 +2,8 @@
   "id" : "furnacequest2",
   "prerequisites" : ["furnacequest1"],
   "title" : "^orange;Melt your own Ores: Part 2",
-  "text" : "You want to learn how to make a Furnace? I don't know dude... I'm more worried about where I'll go now.\nYou really need a furnace? Fine.. Get me 25 Copper Ores, and I might change my mind.",
-  "completionText" : "You actually got it. You must really be needing to learn how to make a Furnace.\nKnow what? Keep those ores, and take this recipe. Don't lose it.",
+  "text" : "For me to teach you how to make a furnace, you need to get me 25 Copper Ores. That way, I can teach you how to melt ores meanwhile.",
+  "completionText" : "You got them. Well, the deal is a deal. Here's your Furnace recipe. Use it alongside some ^orange;Coal Ore^reset; to melt your ores.",
   "mainQuest" : true,
   "moneyRange" : [120, 120],
   "rewards" : [
@@ -14,11 +14,18 @@
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
     "portraits" : {
-      "default" : "questGiver"
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/ursaminer/ursaminerportrait.png"} ],
+        "title" : "Bernard"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/ursaminer/ursaminerportrait.png"} ],
+        "title" : "Bernard"
+      }
     },
     "requireTurnIn" : true,
 
-    "turnInDescription" : "Deliver the ^orange;Copper Ores^reset; to the Human Survivor.",
+    "turnInDescription" : "Deliver the ^orange;Copper Ores^reset; to the ^orange;Bernard^reset; at ^orange;Ursa Miner^reset;.",
     "conditions" : [
       {
         "type" : "gatherItem",

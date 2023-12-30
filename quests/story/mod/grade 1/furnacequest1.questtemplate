@@ -2,8 +2,8 @@
   "id" : "furnacequest1",
   "prerequisites" : ["inventorstablequest"],
   "title" : "^orange;Melt your own Ores: Part 1",
-  "text" : "Your crafting table must be really vague now, since you only know how to craft a Workbench.\nYou might need to check other people for learning how to make new crafting table.\nGladly, I met a human who worked as a miner. He might teach you how to make a Furnace. He's here, somewhere.",
-  "completionText" : "You're looking for someone who worked as a miner? Yes, that's me.",
+  "text" : "Your crafting table must be really vague now, since you only know how to craft a Workbench.\nYou might need to check other people for learning how to make new crafting table.\nGladly, I think ^orange;Ursa Miner^reset; store might help you. He might teach you how to make a Furnace. He's east of here, in the third floor.",
+  "completionText" : "You're looking to learn how to craft a ^orange;furnace^reset;? Yes, I can help with that, if you do something for me first.",
   "mainQuest" : true,
   "moneyRange" : [120, 120],
   "_rewards" : [
@@ -15,11 +15,14 @@
   "scriptConfig" : {
     "portraits" : {
       "questStarted" : "questGiver",
-      "questComplete" : "questReceiver"
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/ursaminer/ursaminerportrait.png"} ],
+        "title" : "Bernard"
+      }
     },
     "requireTurnIn" : true,
 
-    "turnInDescription" : "Find the ^orange;human^reset; who worked as a miner.",
+    "turnInDescription" : "Find the ^orange;Ursa Miner^reset; store.",
     "_conditions" : [
       {
         "type" : "gatherItem",
