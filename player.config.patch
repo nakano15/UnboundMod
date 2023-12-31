@@ -1,6 +1,16 @@
 [
 	{
 		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/204",
+		"_info" : [ "Nano Wrap Bandages", "nanowrap" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/203",
+		"_info" : [ "Medkit", "medkit" ]
+	},
+	{
+		"op" : "remove",
 		"path" : "/defaultBlueprints/tier1/190",
 		"_info" : [ "Ore Detector", "oredetector" ]
 	},
@@ -53,6 +63,11 @@
 		"op" : "remove",
 		"path" : "/defaultBlueprints/tier1/177",
 		"_info" : [ "3D Printer", "3dprinter" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/125",
+		"_info" : [ "Bandage", "bandage" ]
 	},
 	{
 		"op" : "remove",
