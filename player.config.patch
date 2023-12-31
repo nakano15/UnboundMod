@@ -118,5 +118,10 @@
 		"op" : "remove",
 		"path" : "/defaultBlueprints/tier1/4", 
 		"_info" : [ "Climbing Rope", "climbingrope" ]
+	},
+	{
+		"op" : "replace",
+		"path" : "/statusControllerSettings/stats/healthRegen/baseValue", 
+		"value" : 0.6
 	}
 ]
