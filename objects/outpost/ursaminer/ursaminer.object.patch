@@ -8,5 +8,68 @@
 		"op" : "add",
 		"path" : "/turnInQuests",
 		"value" : [ "furnacequest1", "furnacequest2" ]
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/19"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/16"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/15"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/14"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/11"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/8"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/6"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/4"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/3"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/2"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/1"
+	},
+	{
+		"op" : "remove",
+		"path" : "/interactData/items/0"
+	},
+	{
+		"op" : "replace",
+		"path" : "/interactData/paneLayoutOverride/windowtitle/subtitle",
+		"value" : "Sells Mining Tools"
+	},
+	{
+		"op" : "replace",
+		"path" : "/apexDescription",
+		"value" : "Is that a bear... Who sells Mining Equipments?"
+	},
+	{
+		"op" : "replace",
+		"path" : "/description",
+		"value" : "A family business. Sells equipments for mining."
 	}
 ]
