@@ -7,6 +7,6 @@
 	{
 		"op" : "add",
 		"path" : "/input/-",
-		"value" : { "item" : "solidfuel", "count" : 2 }
+		"value" : { "item" : "liquidlava", "count" : 2 }
 	}
 ]
