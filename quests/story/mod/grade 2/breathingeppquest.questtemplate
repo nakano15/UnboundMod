@@ -7,7 +7,7 @@
   "mainQuest" : true,
   "moneyRange" : [120, 120],
   "rewards" : [
-    [ [ "breathprotectionback-recipe", 1 ], [ "pasty", 5 ] ]
+    [ [ "breathprotectionback-recipe", 1 ] ]
   ],
 
   "updateDelta" : 10,
@@ -20,7 +20,7 @@
     "requireTurnIn" : true,
 
     "turnInDescription" : "Deliver the ^orange;Crystal Erchius Fuel^reset; to the ^orange;Human Scientist^reset;.",
-    "_conditions" : [
+    "conditions" : [
       {
         "type" : "gatherItem",
         "itemName" : "solidfuel",
