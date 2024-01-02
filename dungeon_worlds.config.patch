@@ -2,7 +2,7 @@
 	{
 		"op" : "replace",
 		"path" : "/lunarbase/threatLevel",
-		"value" : 3.5
+		"value" : 2.5
 	},
 	{
 		"op" : "replace",
