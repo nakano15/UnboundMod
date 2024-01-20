@@ -2,11 +2,11 @@
 	{
 		"op" : "add",
 		"path" : "/scriptConfig/offeredQuests",
-		"value" : [ "inventorstablequest", "furnacequest1", "breathingeppquest" ]
+		"value" : [ "inventorstablequest", "furnacequest1", "breathingeppquest", "heatingeppquest1", "heatingeppquest2", "coolingeppquest" ]
 	},
 	{
 		"op" : "add",
 		"path" : "/scriptConfig/turnInQuests",
-		"value" : [ "inventorstablequest", "breathingeppquest" ]
+		"value" : [ "inventorstablequest", "breathingeppquest", "heatingeppquest1", "heatingeppquest2", "coolingeppquest" ]
 	}
 ]

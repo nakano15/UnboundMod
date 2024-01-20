@@ -1,0 +1,32 @@
+{
+  "id" : "heatingeppquest1",
+  "prerequisites" : ["breathingeppquest"],
+  "title" : "^orange;In need of Heat Protection: Part I.",
+  "text" : "Let me guess: You need another upgrade for your EPP? You want to get protection against ^blue;cold^reset;? Hm, that might be tricky, but you might have to help me with something else first. I need a ^orange;Cool Computer^reset; from Apex Dungeons.",
+  "completionText" : "You got the computer? Really nice! That's exactly what I was looking for. Now lets get onto the real task.",
+  "mainQuest" : true,
+  "moneyRange" : [120, 120],
+  "rewards" : [
+    [  ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Deliver the ^orange;Cool Computer^reset; to the ^orange;Human Scientist^reset;.",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "apexcoolcomputer",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

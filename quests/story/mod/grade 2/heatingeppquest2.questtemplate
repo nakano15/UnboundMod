@@ -1,0 +1,32 @@
+{
+  "id" : "heatingeppquest2",
+  "prerequisites" : ["heatingeppquest1"],
+  "title" : "^orange;In need of Heat Protection: Part II.",
+  "text" : "For the Heating EPP, I will need you to find 8 ^orange;Scorched Cores^reset;. You probably can find those out of fire creatures or something.",
+  "completionText" : "Ah.. You got them. Very good. Do remember that you will need one core to make the ^orange;Heating EPP^reset;, and no, I'm not giving you any.",
+  "mainQuest" : true,
+  "moneyRange" : [120, 120],
+  "rewards" : [
+    [ [ "coldprotectionback-recipe", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Deliver the ^orange;Cool Computer^reset; to the ^orange;Human Scientist^reset;.",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "scorchedcore",
+        "count" : 8,
+        "consume" : true
+      }
+    ]
+  }
+}

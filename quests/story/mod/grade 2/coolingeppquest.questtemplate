@@ -1,0 +1,32 @@
+{
+  "id" : "coolingeppquest",
+  "prerequisites" : ["heatingeppquest2"],
+  "title" : "^orange;To Make a Cooling EPP.",
+  "text" : "I can already imagine: You found a extremely ^red;hot^reset; planet and you want to explore. I have a recipe that helps with that, but for that.. Yes. ^orange;10 Cryonic Extracts^reset;.",
+  "completionText" : "You got the ^orange;Cryonic Extracts^reset;? Good. Give them to me, and here's your recipe. I hope you managed to get one extra too, haha.",
+  "mainQuest" : true,
+  "moneyRange" : [120, 120],
+  "rewards" : [
+    [ [ "heatprotectionback-recipe", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Deliver the ^orange;Cryonic Extract^reset; to the ^orange;Human Scientist^reset;.",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "cryonicextract",
+        "count" : 8,
+        "consume" : true
+      }
+    ]
+  }
+}
