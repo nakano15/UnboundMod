@@ -2,7 +2,7 @@
   "id" : "heatingeppquest2",
   "prerequisites" : ["heatingeppquest1"],
   "title" : "^orange;In need of Heat Protection: Part II.",
-  "text" : "For the Heating EPP, I will need you to find 8 ^orange;Scorched Cores^reset;. You probably can find those out of fire creatures or something.",
+  "text" : "For the Heating EPP, I will need you to find 4 ^orange;Scorched Cores^reset;. You probably can find those out of fire creatures or something.",
   "completionText" : "Ah.. You got them. Very good. Do remember that you will need one core to make the ^orange;Heating EPP^reset;, and no, I'm not giving you any.",
   "mainQuest" : true,
   "moneyRange" : [120, 120],
@@ -24,7 +24,7 @@
       {
         "type" : "gatherItem",
         "itemName" : "scorchedcore",
-        "count" : 8,
+        "count" : 4,
         "consume" : true
       }
     ]

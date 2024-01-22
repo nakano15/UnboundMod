@@ -2,7 +2,7 @@
   "id" : "antiradiationeppquest",
   "prerequisites" : ["breathingeppquest"],
   "title" : "^orange;Upgrading EPP Against Radiation.",
-  "text" : "What do you want now? Ah, so you want some protection against ^green;radiation^reset;? Yes, I have an idea of how to solve that problem, but for that, I will need ^orange;8 Venom Samples^reset; beforehand.",
+  "text" : "What do you want now? Ah, so you want some protection against ^green;radiation^reset;? Yes, I have an idea of how to solve that problem, but for that, I will need ^orange;4 Venom Samples^reset; beforehand.",
   "completionText" : "You've got the samples? That's nice. Here's the recipe for the ^green;Anti Radiation EPP^reset;. You'll still need one Venom Sample to make it. Oops.",
   "mainQuest" : true,
   "moneyRange" : [140, 140],
@@ -24,7 +24,7 @@
       {
         "type" : "gatherItem",
         "itemName" : "venomsample",
-        "count" : 8,
+        "count" : 4,
         "consume" : true
       }
     ]

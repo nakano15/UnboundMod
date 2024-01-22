@@ -2,7 +2,7 @@
   "id" : "coolingeppquest",
   "prerequisites" : ["heatingeppquest2"],
   "title" : "^orange;To Make a Cooling EPP.",
-  "text" : "I can already imagine: You found a extremely ^red;hot^reset; planet and you want to explore. I have a recipe that helps with that, but for that.. Yes. ^orange;10 Cryonic Extracts^reset;.",
+  "text" : "I can already imagine: You found a extremely ^red;hot^reset; planet and you want to explore. I have a recipe that helps with that, but for that.. Yes. ^orange;4 Cryonic Extracts^reset;.",
   "completionText" : "You got the ^orange;Cryonic Extracts^reset;? Good. Give them to me, and here's your recipe. I hope you managed to get one extra too, haha.",
   "mainQuest" : true,
   "moneyRange" : [120, 120],
@@ -24,7 +24,7 @@
       {
         "type" : "gatherItem",
         "itemName" : "cryonicextract",
-        "count" : 8,
+        "count" : 4,
         "consume" : true
       }
     ]

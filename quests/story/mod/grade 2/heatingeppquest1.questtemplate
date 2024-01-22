@@ -1,6 +1,6 @@
 {
   "id" : "heatingeppquest1",
-  "prerequisites" : ["breathingeppquest"],
+  "prerequisites" : ["antiradiationeppquest"],
   "title" : "^orange;In need of Heat Protection: Part I.",
   "text" : "Let me guess: You need another upgrade for your EPP? You want to get protection against ^blue;cold^reset;? Hm, that might be tricky, but you might have to help me with something else first. I need a ^orange;Cool Computer^reset; from Apex Dungeons.",
   "completionText" : "You got the computer? Really nice! That's exactly what I was looking for. Now lets get onto the real task.",
