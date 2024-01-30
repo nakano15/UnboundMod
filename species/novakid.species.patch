@@ -1,0 +1,38 @@
+[
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/16"
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/15"
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/14"
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/13"
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/12"
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/11"
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/6"
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/5"
+	},
+	{
+		"op" : "remove",
+		"path" : "/defaultBlueprints/tier1/4"
+	}
+]
