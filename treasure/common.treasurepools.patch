@@ -94,8 +94,8 @@
 			{"weight" : 0.5, "pool" : "chestMoney"},
 			{"weight" : 0.3, "pool" : "valuableTreasure"},
 			{"weight" : 0.2, "pool" : "goodWeapon"},
-			{"weight" : 0.5, "pool" : "techcard"},
-			{"weight" : 0.4, "pool" : "upgrademodule"}
+			{"weight" : 0.5, "item" : "techcard"},
+			{"weight" : 0.4, "item" : "upgrademodule"}
 		  ]
 		}]
 	  ]	
